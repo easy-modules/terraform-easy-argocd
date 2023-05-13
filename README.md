@@ -66,6 +66,14 @@ module "argo_cd" {
   }
 }
 ```
+# LOGIN
+If you want to login to argo CD using default credentials you can use the following command:
+
+Username: **admin**
+
+Password: `kubectl get -namespace argocd-system secrets argocd-initial-admin-secret -o=jsonpath='{.data.password}' | base64 -d`
+
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
