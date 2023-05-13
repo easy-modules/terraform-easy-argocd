@@ -1,4 +1,4 @@
- # terraform easy modules
+ # Terraform easy modules
  
 Terraform module to deploy ArgoCD
 
