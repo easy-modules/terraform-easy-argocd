@@ -1,3 +1,5 @@
+# Argo CD
+
 ## Requirements
 
 | Name | Version |
