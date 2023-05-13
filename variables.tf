@@ -62,8 +62,8 @@ variable "project" {
   description = "Project Setup"
   default = {
     ezops = {
-      project_name        = "ezops"
-      project_description = "Ezops project"
+      project_name        = "easy"
+      project_description = "Easy project"
     }
   }
 }
@@ -99,14 +99,14 @@ variable "applications" {
   type        = any
   description = "Application Setup"
   default = {
-    ezops = {
+    easy = {
       app_name              = "kube-state-metrics"
       app_namespace         = "kube-state-metrics"
       app_path              = "charts/kube-state-metrics"
       app_repo_url          = "https://github.com/prometheus-community/helm-charts"
       app_target_revision   = "HEAD"
       app_directory_recurse = false
-      app_project           = "ezops"
+      app_project           = "easy"
     }
     alert-manager = {
       app_name              = "alert-manager"
@@ -115,7 +115,7 @@ variable "applications" {
       app_repo_url          = "https://github.com/prometheus-community/helm-charts"
       app_target_revision   = "HEAD"
       app_directory_recurse = false
-      app_project           = "ezops"
+      app_project           = "easy"
     },
   }
 }
