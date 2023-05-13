@@ -13,7 +13,7 @@ output "argo_cd_private_repo_id" {
   value       = module.argo_cd.argo_cd_private_repo_id
 }
 
-output "argo_cd_application_name" {
-  description = "The name of the Argo CD application"
-  value       = module.argo_cd.argo_cd_application_name
-}
+#output "argo_cd_application_name" {
+#  description = "The name of the Argo CD application"
+#  value       = module.argo_cd.argo_cd_application_name
+#}
