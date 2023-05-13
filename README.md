@@ -2,6 +2,7 @@
  
 Terraform module to deploy ArgoCD
 
+
 ## Usage
 
 ```hcl
