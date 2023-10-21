@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Changelog](README.md)
-* [README](<README (1).md>)
+* [README](README.md)
+* [Changelog](<README (1).md>)
